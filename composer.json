@@ -1,0 +1,21 @@
+{
+    "authors": [
+        {
+            "email": "liujingyu@ling.ai",
+            "name": "liujingyu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Superman2014\\Aliyun\\Sts\\": "aliyun-php-sdk-sts/"
+        }
+    },
+    "description": "aliyun sts",
+    "minimum-stability": "dev",
+    "name": "superman2014/aliyun-php-sdk-sts",
+    "require": {
+        "ext-openssl": "*",
+        "php": ">=5.6.0",
+        "superman2014/aliyun-php-sdk-core": "dev-master"
+    }
+}
