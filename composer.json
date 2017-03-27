@@ -10,6 +10,7 @@
             "Superman2014\\Aliyun\\Sts\\": "aliyun-php-sdk-sts/"
         }
     },
+    "license": "MIT",
     "description": "aliyun sts",
     "name": "superman2014/aliyun-php-sdk-sts",
     "require": {
