@@ -61,7 +61,7 @@ class StsToken
         $request->setRoleArn($roleArn);
         $request->setPolicy($policy);
         $request->setDurationSeconds(3600);
-        $response = $client->doAction($request);
+        $response = $client->getAcsResponse($request);
 
         if (false === $response->isSuccess()) {
             return false;
